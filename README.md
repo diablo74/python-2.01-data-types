@@ -12,34 +12,56 @@
   7. Merge the pull request.
   8. Paste the link to your repository in your assignment in online.theironyard.com
 
-  ## Answers go below for assignment 2 for Using variables
-    1. ```taxRate = 8.025```
+  ## Answers go below for assignment 3 for Using variables
 
-    2.  ```print(total)
-          3.7383177570093458```
+  1.  ```friendNames = ["Jason", "Joe", "Jesus"]```
+  2.  ```USstates = ["Texas", "Florida", "Hawaii"]```
+  3.  ```Population  = {78201: 1000, 78205: 3000, 78210: 2000, 78213: 5000}```
+  4.  ```Population  = { "Census year 1980": { 78201: 1000, 78205: 3000, 78210: 2000, 78213: 5000 }, "Census year 1990": { 78201: 6000, 78205: 15000, 78210: 500, 78213: 3000}, "Census year 2000": {78201: 9000, 78205: 8000, 78201: 300, 78213: 2000}}```
+  5.  ```todaydate = ['April 18, 2016']```
+  6.  What decision(s) did you make when answering question #1?
+      ```` What type of data type I will be using. This type of data is strings and place them in a list [] or Trules (), also depending if using order or unordered, and  mutable or immutable list.```
 
-    3.  ```print(total + Playstation4)
-    331.7601246105919```
+      What happens if you have two friends named "John"?
+      ``` Here is Example naming two friends = ['John', 'John'] the answer will be print(friends)
+['John', 'John'] the name will appear twice and more date will be required```
 
-  ```print(total + Nintendo)
-  168.69158878504672```
+What if you have two friends named "John Smith"?
+```if you have two friends that have the same first and last name like John Smith, you need have a middle initial on one of them to tell them apart. Example friends = ['John A. Smith', 'John Smith'] or you can place city where they were born Example FriendNames = {"Las Vegas": ["John Smith"], "San Diego": ["John Smith"]} to tall them apart```
+7.  Why would you choose one over the other?
+```Postal Abbreviation is commonly use with zip code to limit position data. It all depends on the output you receive and who reading it or what data is being enter and how many position data is the input requiring.```
 
-  ```print(total + psvita)
-  196.8068535825545```   
+If you needed to model both the two letter abbreviation and the "proper" name, what would your data structure look like?
+```Data structure will be TX = ("TEXAS")```
 
-  What problems might we encounter when using what we've learned in class to buy and sell things in the real world?
+How did you decide which two letters refer to which state?
+```Had to goggle it```
 
-  ```The problems that will be encounter is that total will always have to change. total = (Playstation4/taxRate)total = (Nintendo/taxRate) and total = (Psvita/taxRate).```
+Which states do the letters "AL", "AR", and "AK" refer to?
+```Alabama, Arkansas, Alaska ```
 
-    4. ```name = ('David C. Villarreal')```
+How do you know?
+```No two states may have the same abbreviation and If there are two words in the state's name, take the first letter of each. Take the first two letters of the state name to form the abbreviation only if there no old abbreviation. And states with the old abbreviation you take first and last letter of old abbreviation.```
 
-    5. ```greeting = ( ' is feeling extremely excited!')```
+8. What data type did you use for the ZIP code in question #3?
+```string```
 
-    6.```print(name + greeting)
-  David C. Villarreal is feeling extremely excited!```
+Why did you choose the data type you chose?
+```The data type I used is STRING because Population is be identify by ZIP code```
 
-    7.  ```print(total+Taxes)
-  697.2585669781931```
+Would another data type be better?
+```List could be used```
+Why or why not?
+'''The list could only be used if you a multi zip code and population.```
 
-    8.```print('David does not owe', total,' and will not pay.')
-  David does not owe 697.2585669781931  and will not pay.```
+9. Did you use a string, an integer, or some other data type for the census year in question #4?
+```I used string and integer```
+
+Why did you choose the data type you chose?
+```Because you can use the string and use integer to select which data you want to used.```
+
+Someone might want to use your data to look up the population of a given ZIP code over time, or they might want to look up population across all ZIP codes for a given year. Which of these tasks is your data structure best suited for?
+```My data structure is suited for both the ZIP code identify how many in the population and over what time period.```
+
+10. When storing data, it's often a good idea to see if there's a standard format for that kind of data. Look up "ISO 8601" on Wikipedia. How does the ISO 8601 standard compare to the way you decided to store today's date?
+```ISO 8601 is to avoid misinterpretation of numeric representations of dates and times, particularly when data are transferred between countries with different conventions for writing numeric dates and times.```
